@@ -10,12 +10,13 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm ci
-      - run: echo "{\"url\":\"https://wellesley.powerschool.com\",\"username\":\"$USERNAME\",\"password\":\"$PASSWORD\"}"
+      - run: yarn
+      - run: echo "{\"url\":\"https://wellesley.powerschool.com\",\"username\":\"$USERNAME\",\"password\":\"$PASSWORD\"}" > test-credentials.json
+        name: Setup test-credentials.json
         env:
           USERNAME: ${{ secrets.username }}
           PASSWORD: ${{ secrets.password }}
-      - run: npm test
+      - run: yarn test
 
   publish-gpr:
     needs: build
@@ -27,7 +28,7 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: '@whsha'
-      - run: npm ci
-      - run: npm publish
+      - run: yarn
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
