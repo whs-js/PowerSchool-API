@@ -1085,12 +1085,33 @@ declare module "powerschool-api" {
      */
     export class PowerSchoolUser {
         public userID: number;
-        public userType: string;
+        public userType: number;
+
+        constructor(session: PowerSchoolSession, api: PowerSchoolAPI);
 
         /**
          * Get information about this account's student.
          * @return {Promise.<PowerSchoolStudentInfo[], Error>} A promise that resolves with the account's students information, and rejects with an Error if one occurred.
          */
         getStudentInfo(): Promise<PowerSchoolStudentInfo[]>;
+    }
+
+    export class PowerSchoolSession {
+        public locale: string;
+        public serverCurrentTime: Date;
+        public serverInfo: {
+            apiVersion: string,
+            dayLightSavings: number,
+            publicPortalDisabled: boolean,
+            publicPortalDisabledMessage: string,
+            rawOffset: number,
+            serverTime: Date,
+            standardTimeZoneName: string,
+            timeZoneName: string
+        };
+        public serviceTicket: string;
+        public studentIDs: number;
+        public userId: number;
+        public userType: number;
     }
 }
