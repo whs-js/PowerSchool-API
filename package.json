@@ -24,5 +24,6 @@
   "dependencies": {
     "readline-sync": "^1.4.7",
     "strong-soap": "^1.2.6"
-  }
+  },
+  "types": "powerschool.d.ts"
 }
