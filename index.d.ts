@@ -1,6 +1,6 @@
 declare module "powerschool-api" {
     /** The main PowerSchool API wrapper, for logging into user accounts and caching of retrieved info. */
-    export default class PowerSchoolAPI {
+    export class PowerSchoolAPI {
         /**
          * Create an API wrapper.
          * @param {string} url - The main URL of the PowerSchool installation, such as "http://sales.powerschool.com".
