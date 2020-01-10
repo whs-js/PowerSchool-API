@@ -28,7 +28,7 @@ declare module "powerschool-api" {
      * A PowerSchool assignment.
      * @hideconstructor
      */
-    export class PowerSchoolAssignment {
+    class PowerSchoolAssignment {
         /**
          * The ID of this assignment.
          * @member {number}
@@ -130,7 +130,7 @@ declare module "powerschool-api" {
      * A category for a PowerSchool assignment.
      * @hideconstructor
      */
-    export class PowerSchoolAssignmentCategory {
+    class PowerSchoolAssignmentCategory {
         /**
              * The ID of this assignment.
              * @member {number}
@@ -172,7 +172,7 @@ declare module "powerschool-api" {
      * The score received for a PowerSchool assignment.
      * @hideconstructor
      */
-    export class PowerSchoolAssignmentScore {
+    class PowerSchoolAssignmentScore {
         /**
          * The ID of this assignment.
          * @member {number}
@@ -256,7 +256,7 @@ declare module "powerschool-api" {
      * A code assigned to a PowerSchool attendance record.
      * @hideconstructor
      */
-    export class PowerSchoolAttendanceCode {
+    class PowerSchoolAttendanceCode {
         /**
          * The ID of this attendance code.
          * @member {number}
@@ -310,7 +310,7 @@ declare module "powerschool-api" {
      * A PowerSchool attendance record, such as a deviation from normal attendance.
      * @hideconstructor
      */
-    export class PowerSchoolAttendanceRecord {
+    class PowerSchoolAttendanceRecord {
         /**
          * The ID of this attendance code.
          * @member {number}
@@ -382,7 +382,7 @@ declare module "powerschool-api" {
      * A PowerSchool course.
      * @hideconstructor
      */
-    export class PowerSchoolCourse {
+    class PowerSchoolCourse {
         /**
          * The ID of this course.
          * @member {number}
@@ -491,7 +491,7 @@ declare module "powerschool-api" {
      * A PowerSchool event, such as a not in session day.
      * @hideconstructor
      */
-    export class PowerSchoolEvent {
+    class PowerSchoolEvent {
         /**
          * The ID of this event.
          * @member {number}
@@ -533,7 +533,7 @@ declare module "powerschool-api" {
      * An object representing the final grade in a PowerSchool course.
      * @hideconstructor
      */
-    export class PowerSchoolFinalGrade {
+    class PowerSchoolFinalGrade {
         /**
          * The ID of this event.
          * @member {number}
@@ -593,7 +593,7 @@ declare module "powerschool-api" {
      * A PowerSchool period.
      * @hideconstructor
      */
-    export class PowerSchoolPeriod {
+    class PowerSchoolPeriod {
         /**
          * The ID of this period.
          * @member {number}
@@ -641,7 +641,7 @@ declare module "powerschool-api" {
      * A PowerSchool reporting term. Marks are divided and given out in reporting terms.
      * @hideconstructor
      */
-    export class PowerSchoolReportingTerm {
+    class PowerSchoolReportingTerm {
 
         /**
          * The ID of this reporting term.
@@ -702,7 +702,7 @@ declare module "powerschool-api" {
      * A PowerSchool school information object.
      * @hideconstructor
      */
-    export class PowerSchoolSchool {
+    class PowerSchoolSchool {
 
         /**
          * The ID of this school.
@@ -793,7 +793,7 @@ declare module "powerschool-api" {
      * A object meant for holding basic information about a student.
      * @hideconstructor
      */
-    export class PowerSchoolStudent {
+    class PowerSchoolStudent {
         /**
          * The student's ID.
          * @member {number}
@@ -897,7 +897,7 @@ declare module "powerschool-api" {
      * Holds information about the student.
      * @hideconstructor
      */
-    export class PowerSchoolStudentInfo {
+    class PowerSchoolStudentInfo {
         /**
          * The student's school.
          * @member {PowerSchoolSchool}
@@ -981,7 +981,7 @@ declare module "powerschool-api" {
      * A PowerSchool teacher object.
      * @hideconstructor
      */
-    export class PowerSchoolTeacher {
+    class PowerSchoolTeacher {
         /**
          * The ID of this teacher.
          * @member {number}
@@ -1029,7 +1029,7 @@ declare module "powerschool-api" {
      * A PowerSchool term, for which courses can be a part of.
      * @hideconstructor
      */
-    export class PowerSchoolTerm {
+    class PowerSchoolTerm {
         /**
          * The ID of this term.
          * @member {number}
@@ -1096,7 +1096,7 @@ declare module "powerschool-api" {
         getStudentInfo(): Promise<PowerSchoolStudentInfo[]>;
     }
 
-    export class PowerSchoolSession {
+    class PowerSchoolSession {
         public locale: string;
         public serverCurrentTime: Date;
         public serverInfo: {

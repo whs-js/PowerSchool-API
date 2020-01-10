@@ -65,4 +65,7 @@ class PowerSchoolAPI {
     }
 }
 
-module.exports = PowerSchoolAPI;
+module.exports = {
+    PowerSchoolAPI,
+    PowerSchoolUser,
+};
