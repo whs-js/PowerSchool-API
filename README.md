@@ -9,6 +9,7 @@ We currently support fetching a variety of data on the user. Due to a lack of te
 **Node 7.0.0 or later is required to use this package.**
 
 To install using NPM, type: `npm install powerschool-api --save`
+To install using Yarn, type: `yarn add powerschool-api`
 
 ## Usage
 
@@ -30,6 +31,6 @@ This project is licensed under the [MIT license](/LICENSE). Please make sure you
 
 ## Links
 
-- [My website](https://www.madebyayden.co)
-- [GitHub](https://www.github.com/aydenp/PowerSchool-API)
+- [Original Author's Website](https://www.madebyayden.co)
+- [Original Author's GitHub](https://www.github.com/aydenp/PowerSchool-API)
 - [Documentation](https://aydenp.github.io/PowerSchool-API/)
