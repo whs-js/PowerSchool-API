@@ -8,7 +8,7 @@ We currently support fetching a variety of data on the user. Due to a lack of te
 
 **Node 7.0.0 or later is required to use this package.**
 
-To install using NPM, type: `npm install powerschool-api --save`
+To install using NPM, type: `npm install powerschool-api --save`<br>
 To install using Yarn, type: `yarn add powerschool-api`
 
 ## Usage
