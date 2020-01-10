@@ -28,7 +28,7 @@
   "dependencies": {
     "strong-soap": "^1.2.6"
   },
-  "dev-dependencies": {
+  "devDependencies": {
     "readline-sync": "^1.4.7"
   }
 }
