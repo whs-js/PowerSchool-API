@@ -1,4 +1,4 @@
-declare module "powerschool-api" {
+declare module "@whsha/powerschool-api" {
     /** The main PowerSchool API wrapper, for logging into user accounts and caching of retrieved info. */
     export class PowerSchoolAPI {
         /**
