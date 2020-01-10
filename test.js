@@ -1,4 +1,4 @@
-const PowerSchoolAPI = require("./index");
+const { PowerSchoolAPI } = require("./index");
 const readline = require("readline-sync");
 
 // try to load test credentials from file if exists
