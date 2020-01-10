@@ -23,7 +23,9 @@
   "author": "Ayden <madebyayden+npm@icloud.com> (https://www.madebyayden.co)",
   "license": "MIT",
   "dependencies": {
-    "readline-sync": "^1.4.7",
     "strong-soap": "^1.2.6"
+  },
+  "dev-dependencies": {
+    "readline-sync": "^1.4.7"
   }
 }
