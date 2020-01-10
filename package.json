@@ -21,6 +21,9 @@
     "xml"
   ],
   "author": "Ayden <madebyayden+npm@icloud.com> (https://www.madebyayden.co)",
+  "contributors": [
+    "Zachary Kohnen (DusterTheFirst) <me@dusterthefirst.com>"
+  ],
   "license": "MIT",
   "dependencies": {
     "strong-soap": "^1.2.6"
