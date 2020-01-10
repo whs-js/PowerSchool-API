@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "A Node.js library for interacting with the PowerSchool API.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "node test.js"
   },
@@ -24,6 +25,5 @@
   "dependencies": {
     "readline-sync": "^1.4.7",
     "strong-soap": "^1.2.6"
-  },
-  "types": "powerschool.d.ts"
+  }
 }
