@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/dusterthefirst/powerschool-api.git"
+    "url": "https://www.github.com/whsha/powerschool-api.git"
   },
   "keywords": [
     "powerschool",
@@ -22,9 +22,6 @@
   ],
   "author": "Ayden <madebyayden+npm@icloud.com> (https://www.madebyayden.co)",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "dependencies": {
     "strong-soap": "^1.2.6"
   },
