@@ -7,9 +7,10 @@ We currently support fetching a variety of data on the user. Due to a lack of te
 ## Installation
 
 **Node 7.0.0 or later is required to use this package.**
+> You must setup gpr for your project by adding `registry=https://npm.pkg.github.com/whsha` to your `.npmrc` file
 
-To install using NPM, type: `npm install powerschool-api --save`<br>
-To install using Yarn, type: `yarn add powerschool-api`
+To install using NPM, type: `npm install @whsha/powerschool-api --save`<br>
+To install using Yarn, type: `yarn add @whsha/powerschool-api`
 
 ## Usage
 
