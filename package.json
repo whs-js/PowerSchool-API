@@ -1,6 +1,6 @@
 {
   "name": "@whsha/powerschool-api",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "description": "A Node.js library for interacting with the PowerSchool API.",
   "main": "index.js",
   "types": "index.d.ts",

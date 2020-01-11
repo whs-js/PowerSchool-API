@@ -1093,7 +1093,7 @@ declare module "@whsha/powerschool-api" {
          * Get information about this account's student.
          * @return {Promise.<PowerSchoolStudentInfo[], Error>} A promise that resolves with the account's students information, and rejects with an Error if one occurred.
          */
-        getStudentInfo(): Promise<PowerSchoolStudentInfo>;
+        getStudentsInfo(): Promise<PowerSchoolStudentInfo[]>;
     }
 
     class PowerSchoolSession {
